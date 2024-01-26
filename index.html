@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="icon" href=""> -->
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Admin Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="./resources/icons/logo.svg" alt="logo">
+                <p>Dashboard</p>
+            </div>
+
+            <ul class="nav">
+                <a href="#">
+                    <li class="nav-item">
+                        <img src="./resources/icons/home.svg" alt="home icon" class="icon">
+                        <p class="label">Home</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="nav-item">
+                        <img src="./resources/icons/profile.svg" alt="profile icon" class="icon">
+                        <p class="label">Profile</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="nav-item">
+                        <img src="./resources/icons/message.svg" alt="message icon" class="icon">
+                        <p class="label">Messages</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="nav-item">
+                        <img src="./resources/icons/history.svg" alt="history icon" class="icon">
+                        <p class="label">History</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="nav-item">
+                        <img src="./resources/icons/tasks.svg" alt="task icon" class="icon">
+                        <p class="label">Tasks</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="nav-item">
+                        <img src="./resources/icons/community.svg" alt="community icon" class="icon">
+                        <p class="label">Communities</p>
+                    </li>
+                </a>
+            </ul>
+
+            <ul class="nav">
+                <a href="#">
+                    <li class="nav-item">
+                        <img src="./resources/icons/settings.svg" alt="settings icon" class="icon">
+                        <p class="label">Settings</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="nav-item">
+                        <img src="./resources/icons/support.svg" alt="support icon" class="icon">
+                        <p class="label">Support</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li class="nav-item">
+                        <img src="./resources/icons/privacy.svg" alt="privacy icon" class="icon">
+                        <p class="label">Privacy</p>
+                    </li>
+                </a>
+            </ul>
+
+        </div>
+        <div class="header">
+            <div class="section-one">
+                <div class="search">
+                    <img src="./resources/icons/search.svg" alt="search icon" class="icon">
+                    <input type="text" class="bar">
+                </div>
+                <div class="profile">
+                    <a href="#"><img src="./resources/icons/notifications.svg" alt="notification icon" class="icon">
+                    </a><img src="./resources/avatars/avatar-1.jpg" alt="profile avatar" class="avatar small">
+                    <a href="#">
+                        <p>Morgan Oakley</p>
+                    </a>
+                </div>
+            </div>
+            <div class="section-two">
+                <div class="user-info">
+                    <img src="./resources/avatars/avatar-1.jpg" alt="profile avatar" class="avatar big">
+                    <div class="text">
+                        <p>Hi there,</p>
+                        <p>Morgan Oakley (@morgan)</p>
+                    </div>
+
+                </div>
+                <div class="btns-container">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="projects">
+                <p class="title">Your Projects</p>
+                <div class="cards-container">
+                    <div class="card">
+                        <div>
+                            <p class="title">Super Cool Project</p>
+                            <p class="description">Ipsa alias omnis iste magnam dicta dolorem incidunt itaque facilis
+                                nemo
+                                aperiam. Reprehenderit porro eos dignissimos beatae et voluptatem? Asperiores, sed
+                                praesentium!</p>
+                        </div>
+                        <div class="actions">
+                            <div data-icon="favorite-icon"></div>
+                            <div data-icon="watchlist-icon"></div>
+                            <div data-icon="source-icon"></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <p class="title">Less Cool Project</p>
+                            <p class="description">Risus commodo viverra maecenas accumsan lacus vel. Nunc eget lorem
+                                dolor
+                                sed viverra ipsum nunc aliquet bibendum. Nec sagittis aliquam malesuada bibendum arcu
+                                vitae
+                                elementum.</p>
+                        </div>
+                        <div class="actions">
+                            <div data-icon="favorite-icon"></div>
+                            <div data-icon="watchlist-icon"></div>
+                            <div data-icon="source-icon"></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <p class="title">Impossible App</p>
+                            <p class="description">Amet purus gravida quis blandit turpis cursus. Enim facilisis gravida
+                                neque convallis a cras semper. Dapibus ultrices in iaculis nunc sed augue.</p>
+                        </div>
+                        <div class="actions">
+                            <div data-icon="favorite-icon"></div>
+                            <div data-icon="watchlist-icon"></div>
+                            <div data-icon="source-icon"></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <p class="title">Easy Peasy App</p>
+                            <p class="description">Turpis egestas integer eget aliquet nibh praesent tristique magna.
+                                Neque
+                                laoreet suspendisse interdum consectetur libero. Etiam erat velit scelerisque in dictum
+                                non
+                                consectetur a. Amet facilisis magna etiam tempor orci. Ipsum nunc aliquet bibendum enim
+                                facilisis gravida neque convallis a.</p>
+                        </div>
+                        <div class="actions">
+                            <div data-icon="favorite-icon"></div>
+                            <div data-icon="watchlist-icon"></div>
+                            <div data-icon="source-icon"></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <p class="title">Ad Blocker</p>
+                            <p class="description">Turpis egestas integer eget aliquet nibh praesent tristique magna.
+                                Neque
+                                laoreet suspendisse interdum consectetur libero. Etiam erat velit scelerisque in dictum
+                                non
+                                consectetur a.</p>
+                        </div>
+                        <div class="actions">
+                            <div data-icon="favorite-icon"></div>
+                            <div data-icon="watchlist-icon"></div>
+                            <div data-icon="source-icon"></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <p class="title">Money Maker</p>
+                            <p class="description">Ullamcorper morbi tincidunt ornare massa eget egestas purus. Dis
+                                parturient montes nascetur ridiculus. Euismod quis viverra nibh cras pulvinar mattis.
+                                Mattis
+                                rhoncus urna neque viverra justo nec. Morbi leo urna molestie at elementum eu. Tincidunt
+                                praesent semper feugiat nibh sed pulvinar.</p>
+                        </div>
+                        <div class="actions">
+                            <div data-icon="favorite-icon"></div>
+                            <div data-icon="watchlist-icon"></div>
+                            <div data-icon="source-icon"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="announcements">
+                <p class="title">Announcements</p>
+
+                <ul class="card">
+                    <li>
+                        <p class="title">Site Maintenance</p>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+                            voluptatum ipsa cupiditate unde minima odio sunt fugit distinctio labore sit accusantium
+                            voluptas voluptate aliquid rem adipisci harum, quasi modi eum quae veritatis amet iusto
+                            ratione ea fugiat.</p>
+                    </li>
+                    <li>
+                        <p class="title">Community Share Day</p>
+                        <p class="description">Vel rem, ipsa officia commodi veniam excepturi, ex, molestias
+                            perspiciatis consequuntur sint error voluptatem cum facilis? Voluptas accusantium, nemo
+                            laboriosam quidem ipsum explicabo sed alias possimus reprehenderit libero? Quidem illo
+                            nisi fuga odio veritatis ipsa ex quae, aut saepe!</p>
+                    </li>
+                    <li>
+                        <p class="title">Updated Privacy Policy</p>
+                        <p class="description">Accusamus nihil dicta, quisquam, similique doloremque unde quidem
+                            quaerat a possimus eum deleniti libero, dolore asperiores nulla!Consectetur numquam ex,
+                            sit cupiditate cumque aut quas natus beatae nulla veritatis architecto maiores
+                            exercitationem debitis, adipisci delectus corporis iure optio.</p>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="trending">
+                <p class="title">Trending</p>
+
+                <ul class="card">
+                    <li class="user-info">
+                        <img src="./resources/avatars/avatar-2.jpg" alt="profile avatar" class="avatar small">
+                        <div class="text">
+                            <p class="title">@tegan</p>
+                            <p class="description">World Peace Builder</p>
+                        </div>
+                    </li>
+                    <li class="user-info">
+                        <img src="./resources/avatars/avatar-1.jpg" alt="profile avatar" class="avatar small">
+                        <div class="text">
+                            <p class="title">@morgan</p>
+                            <p class="description">Super Cool Project</p>
+                        </div>
+                    </li>
+                    <li class="user-info">
+                        <img src="./resources/avatars/avatar-3.jpg" alt="profile avatar" class="avatar small">
+                        <div class="text">
+                            <p class="title">@kendall</p>
+                            <p class="description">Life Changing App</p>
+                        </div>
+                    </li>
+                    <li class="user-info">
+                        <img src="./resources/avatars/avatar-4.jpg" alt="profile avatar" class="avatar small">
+                        <div class="text">
+                            <p class="title">@alex</p>
+                            <p class="description">No Traffic Maker</p>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
