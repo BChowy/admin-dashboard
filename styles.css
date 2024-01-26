@@ -233,6 +233,8 @@ a {
 .trending li {
   padding: 0.8rem 0;
 }
+
+/* ---------- PROJECTS ---------- */
 .cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -264,3 +266,11 @@ a {
 .announcements li:not(li:last-child) {
   border-bottom: 1px solid var(--light-grey2-color);
 }
+
+.announcements .description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
