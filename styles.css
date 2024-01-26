@@ -1,0 +1,35 @@
+
+
+:root {
+  --primary-color: #01161e;
+  --secondary-color: #598392;
+  --light-color: #ffffff;
+  --grey-color: #7c7c7c;
+  --light-grey-color: #efefef;
+  --light-grey2-color: #cbcbcb;
+
+  --large-font: clamp(1.2rem, 1.5vw, 1.5rem);
+  --regular-font: clamp(1rem, 1.3vw, 1.2rem);
+  --small-font: clamp(0.9rem, 1vw, 1rem);
+  --smaller-font: clamp(0.7rem, 0.8vw, 0.9rem);
+  --title-font: clamp(0.9rem, 1.1vw, 1.1rem);
+
+  --small-avatar: clamp(30px, 3vw, 40px);
+  --big-avatar: clamp(40px, 5vw, 60px);
+  --icon: clamp(20px, 1vw, 30px);
+
+  --shadow: rgba(100, 100, 100, 0.25) 0px 5px 10px 2px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 1px dashed black; */
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+
+body {
+  background-color: var(--light-grey-color);
+  height: 100vh;
+}
