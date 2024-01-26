@@ -263,6 +263,18 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.actions div[data-icon="favorite-icon"] {
+  background-image: url(./resources/icons/favorite.svg);
+}
+.actions div[data-icon="watchlist-icon"] {
+  background-image: url(./resources/icons/watchlist.svg);
+}
+.actions div[data-icon="source-icon"] {
+  background-image: url(./resources/icons/source-control.svg);
+}
+
+/* ---------- ANNOUNCEMENTS ---------- */
 .announcements li:not(li:last-child) {
   border-bottom: 1px solid var(--light-grey2-color);
 }
